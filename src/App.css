@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+.page-footer {
+  width: 100%;
+}
+.card-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.storeList {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.storeItem {
+  padding: 20px;
+  width: 300px;
+}
+.pcolor {
+  color: rgb(0, 119, 223);
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  padding: 15px;
+  height: 90px;
+  border-radius: 10px;
+  background-color: black;
+  width: 100px;
+  margin-top: -50px;
+  color: white;
+  cursor: pointer;
+  margin-left: -120px;
+  margin-top: 1px;
+}
+.cart:hover {
+  background-color: rgba(72, 75, 51, 0.322);
+}
+.cart-icon {
+  font-size: 50px;
+  color: white;
+}
+.cart span {
+  font-size: 20px;
+}
+.shadow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 50px;
+  background-color: #2724249b;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
+table {
+  z-index: 999999;
+  background-color: white;
+  width: 80%;
+  /* min-height: auto; */
+  border-radius: 15px;
+  position: fixed;
+  top: 50px;
+}
+.totalPrice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 auto;
+}
+.check {
+  display: flex;
+  gap: 5px;
+}
+
+.flexChild {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 35px;
+  border: none;
+  background-color: black;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
